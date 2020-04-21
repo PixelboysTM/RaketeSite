@@ -3,6 +3,11 @@ const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
 const txt = document.querySelector("nav h1");
 const line = document.getElementById("line");
+const up = document.getElementById("totop");
+
+up.addEventListener("click", () => {
+    window.location = "#top"
+})
 
 var open = false;
 menu.addEventListener("click", () => {
